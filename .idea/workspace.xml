@@ -7,9 +7,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Pelican/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeaac7a-2435-4ac7-addd-03a8072cee17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pelican/file.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelican/src/Identity.rs" afterDir="false" />
+    <list default="true" id="aaeaac7a-2435-4ac7-addd-03a8072cee17" name="Changes" comment="identity file added">
+      <change afterPath="$PROJECT_DIR$/Pelican/src/CssTags.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pelican/src/HeaderManager.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/.rustc_info.json" afterDir="false" />
@@ -21,16 +21,6 @@
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.d" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/127e0xz7l07ilv0j.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/1ixqaxn2twqf7etn.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/1s0rzjuwtzboke6t.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/2jlvnp64bfjl0xc8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/30v3od0i4v2iekl5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/54oe6g0mujce17f7.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl-2j9qwft9nqxhxryofst8pu3my/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/incremental/Pelican-2o01in0wklica/s-gu3lbmnx6k-e9wazl.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,24 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Rust_pro/Pelican/Pelican&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/Rust_pro/android_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -97,7 +87,26 @@
       <workItem from="1709873970522" duration="603000" />
       <workItem from="1709884178233" duration="5485000" />
       <workItem from="1709969858688" duration="165000" />
+      <workItem from="1710346920898" duration="2087000" />
+      <workItem from="1711691053811" duration="37000" />
     </task>
+    <task id="LOCAL-00001" summary="identity file added">
+      <option name="closed" value="true" />
+      <created>1710347007563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710347007563</updated>
+    </task>
+    <task id="LOCAL-00002" summary="identity file added">
+      <option name="closed" value="true" />
+      <created>1710347035128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710347035128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml-rs is added to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="identity file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="identity file added" />
   </component>
 </project>

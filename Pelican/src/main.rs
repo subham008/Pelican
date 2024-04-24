@@ -5,7 +5,10 @@ use std::fs::File;
 use std::io::{BufRead, BufReader, Read, Write};
 use std::path::Path;
 
+
 mod identity;
+mod HeaderManager;
+mod CssTags;
 
 fn createFile(name:String , data:String) -> File{
     let path = Path::new(name.as_str());
@@ -28,19 +31,7 @@ fn createFile(name:String , data:String) -> File{
 
 fn main()  -> std::io::Result<()>{
 
-    let obtained:Vec<i64>=vec![78 , 90, 34];
-
-    let manager =identity::IdentityManager::new( obtained );
-
-
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
-    println!("new id {}" , manager.getNewID());
+    println!("{}" , HeaderManager::get_header(String::from("WeebHaven")));
 
     Ok(())
 }
