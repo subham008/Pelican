@@ -1,43 +1,43 @@
 This Project let developers  write a layout in xml which is far simpler than HTML 
 
 sample xml code 
-```<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
     <title>sample</title>
     <LinearLayout
-        width="match_parent"
+        width="400px"
         height="match_parent"
         orientation="vertical"
-
+        background="green"
+        gravity="centre"
     >
-    <Button
+      <Button
         id="ok_but"
         width="match_parent"
         height="wrap_content"
         text="ok"
-        background="red"
-    >
-    </Button>
+              />
+
     <LinearLayout
-      layout_width="match_parent"
-      layout_height="match_parent"
-      orientation="vertical"
+       width="30vh"
+       height="20vh"
+       orientation="horizontal"
+       background="blue"
     >
-    <Button
-    id="del_but"
-    layout_width="match_parent"
-    layout_height="wrap_content"
-    text="ok"
-    background="green"
-    >
-    </Button>
-    <Button
-    id="del_but"
-    layout_width="match_parent"
-    layout_height="wrap_content"
-    text="ok"
-    background="green"
-     />
+        <Button
+           id="del_but"
+           width="match_parent"
+           height="wrap_content"
+           text="ok"
+             />
+
+        <Button
+            id="del_but"
+            width="match_parent"
+            height="wrap_content"
+            text="ok"
+           />
    </LinearLayout>
 </LinearLayout>
 </root>
