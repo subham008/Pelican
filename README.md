@@ -42,5 +42,6 @@ sample xml code
 </LinearLayout>
 </root>
 ```
-it will create a view like below
+it will create a responsive view like below
 
+![expected_image](https://github.com/subham008/Pelican/assets/110040566/c618919b-94be-4d60-a614-df12bcfb3ac5)
