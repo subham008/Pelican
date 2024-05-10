@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Example</title>
+    <style>
+        .container{ 
+           width:400px;
+           height:97vh;
+           background: green;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        .container button{
+            display: block;
+            width:fit-content;
+            height: fit-content;
+            color: aquamarine;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <button>Click Me</button>
+    <button>Subscribe</button>
+    <button>Learn More</button>
+    <div style=" height: 20vh ; width:30dvh; display: flex;  flex-direction:column; background-color: brown; ">
+        <button  >Subscribe</button>
+        <button  style="justify-self: center;  align-self: center;"   >Subscribe</button>
+    </div>
+  </div>
+</body>
+</html>

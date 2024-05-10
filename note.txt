@@ -1,0 +1,39 @@
+basic div container CSS
+
+ .container{
+           width: 400px; 
+           height: 400px;
+           background: green; //background color
+           display: flex;
+           flex-direction: column; // column for vertical and row for horizontal
+        }
+
+
+
+Layout_width and Layout_height
+   wrap_content
+
+   e.g
+   <button style=" height: fit-content;  width: fit-content; " >text</button>
+
+   above statement work as wrap_content
+
+   match_parent
+
+   in case of width just remove width attribute it will save itself as parent 
+   in cas of height  : height:97vh  , it will set to 97% of viewport
+
+
+
+for align or orientation 
+
+for aligning layout items 
+ use align-items  for horizontal porpose and justify-content for vertical porpose in css
+
+ e.g to put at the centre of the div
+ justify-content:centre
+ align-items:centre
+
+
+for aligning items 
+
