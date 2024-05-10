@@ -28,7 +28,21 @@ char* readFileContent(const std::string& fileName) {
 }
 
 
-void createHTMLfile(std::string& file_name ,   )
+bool createHTMLFile(const std::string& file_name, const std::string& source) {
+    std::ofstream file(file_name, std::ios::out);
+    if (!file) {
+        std::cerr << "Error: Unable to create file " << file_name << std::endl;
+        return false;
+    }
+
+    file << source;
+    file.close();
+
+    std::cout << "File " << file_name << " created successfully." << std::endl;
+    return true;
+}
+
+
 
 int getChildElementCount(xml_node<>& node) {
     xml_node<>* child = node.first_node();
