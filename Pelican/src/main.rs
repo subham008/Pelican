@@ -1,37 +1,28 @@
-mod Identity;
 
-use std::fmt::Display;
 use std::fs::File;
-use std::io::{BufRead, BufReader, Read, Write};
-use std::path::Path;
+use std::io::{BufReader, Write};
+use spex::common::XmlError;
+use spex::parsing::XmlReader;
+use spex::xml::XmlDocument;
 
 
-mod identity;
-mod HeaderManager;
-mod CssTags;
+//mod identity;
+//mod HeaderManager;
+//mod CssTags;
 
-fn createFile(name:String , data:String) -> File{
-    let path = Path::new(name.as_str());
-    let display = path.display();
+fn get_child_count(Xml_doc:XmlDocument)->Result<(),XmlError>{
+    let bookstore=Xml_doc.unwrap().root().req("bookstore").element()?;
+    let child_count=bookstore.elements().count();
 
-    // Open the file in write mode (creates a new file if it doesn't exist)
-    let mut file = match File::create(&path) {
-        Err(why) => panic!("Couldn't create {}: {}", display, why),
-        Ok(file) => file,
-    };
+    eprintln!("child count {child_count}");
 
-
-    match file.write_all(data.as_bytes()) {
-        Err(why) => panic!("Couldn't write to {}: ", why),
-        Ok(_) => println!("Successfully wrote data to "),
-    }
-   return file;
+    Ok(())
 }
+fn main() -> std::io::Result<()>{
+    let file = File::open("file.xml")?;
 
-
-fn main()  -> std::io::Result<()>{
-
-    println!("{}" , HeaderManager::get_header(String::from("WeebHaven")));
+    let xml_doc=XmlReader::parse_auto(file)?;
+    get_child_count(xml_doc);
 
     Ok(())
 }

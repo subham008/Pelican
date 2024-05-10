@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaeaac7a-2435-4ac7-addd-03a8072cee17" name="Changes" comment="identity file added">
-      <change afterPath="$PROJECT_DIR$/Pelican/src/CssTags.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelican/src/HeaderManager.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelican/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelican/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelican/src/CssTags.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/src/CssTags.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/.rustc_info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/.fingerprint/Pelican-3f2b2015fdd1c047/dep-bin-Pelican" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/.fingerprint/Pelican-3f2b2015fdd1c047/dep-bin-Pelican" afterDir="false" />
@@ -19,8 +20,8 @@
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/Pelican.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/Pelican.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/Pelican.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/Pelican.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.d" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelican/target/debug/deps/Pelican.pdb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/Rust_pro/android_test",
+    "last_opened_file_path": "F:/Rust_pro/Pelican",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +90,7 @@
       <workItem from="1709969858688" duration="165000" />
       <workItem from="1710346920898" duration="2087000" />
       <workItem from="1711691053811" duration="37000" />
+      <workItem from="1713957920693" duration="3181000" />
     </task>
     <task id="LOCAL-00001" summary="identity file added">
       <option name="closed" value="true" />
@@ -106,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710347035128</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="identity file added">
+      <option name="closed" value="true" />
+      <created>1713957951938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713957951938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

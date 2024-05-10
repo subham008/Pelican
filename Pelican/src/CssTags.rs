@@ -11,7 +11,5 @@ impl CSS{
         return CSS{values:values , name:tag_name};
     }
 
-    pub fn add_value(value:String){
-        Self.values.append(&mut vec![value]);
-    }
+
 }
