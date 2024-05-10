@@ -1,7 +1,7 @@
 This Project let developers  write a layout in xml which is far simpler than HTML 
 
 sample xml code 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <title>sample</title>
