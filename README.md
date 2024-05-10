@@ -3,7 +3,7 @@ This Project let developers  write a layout in xml which is far simpler than HTM
 sample xml code 
 ```<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <title>Hakla_Takla</title>
+    <title>sample</title>
     <LinearLayout
         width="match_parent"
         height="match_parent"
