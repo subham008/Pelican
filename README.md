@@ -14,7 +14,7 @@ sample xml code
     >
       <Button
         id="ok_but"
-        width="match_parent"
+        width="wrap_content"
         height="wrap_content"
         text="ok"
               />
@@ -27,14 +27,14 @@ sample xml code
     >
         <Button
            id="del_but"
-           width="match_parent"
+           width="wrap_content"
            height="wrap_content"
            text="ok"
              />
 
         <Button
             id="del_but"
-            width="match_parent"
+            width="wrap_content"
             height="wrap_content"
             text="ok"
            />
